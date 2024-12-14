@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SmokeSuite(failed)">
+    <classes>
+      <class name="Demo1.SmokeSuite.AmazonTestSuite">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="ChangeCountryTest"/>
+          <include name="Setup"/>
+          <include name="AddToCartTest"/>
+        </methods>
+      </class> <!-- Demo1.SmokeSuite.AmazonTestSuite -->
+    </classes>
+  </test> <!-- SmokeSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
